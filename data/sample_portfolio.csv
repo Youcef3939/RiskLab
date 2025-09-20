@@ -1,0 +1,9 @@
+Ticker,Allocation,AssetType
+AAPL,0.20,Equity
+MSFT,0.20,Equity
+TSLA,0.15,Equity
+AMZN,0.15,Equity
+GOOG,0.10,Equity
+NVDA,0.10,Equity
+JPM,0.05,Bond
+XOM,0.05,Commodity

@@ -1,0 +1,30 @@
+# core data handling and analysis
+pandas
+numpy
+
+# financial calculations
+scipy
+yfinance
+
+# visualization
+matplotlib
+seaborn
+plotly
+
+# dashboard
+streamlit
+
+# report generation
+jinja2
+pdfkit
+openpyxl
+
+# notebook demo
+jupyter
+
+# testing
+pytest
+
+# linting and formatting
+black
+flake8

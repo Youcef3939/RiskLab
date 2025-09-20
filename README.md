@@ -85,56 +85,7 @@ streamlit run src/dashboard.py
 
 ---
 
-## 🏗 architecture & workflow
-
-### architecture
-
-
-+-------------------+
-|  Portfolio Input  |
-|  CSV / JSON / API |
-+---------+---------+
-          |
-          v
-+-------------------+
-|   Portfolio Loader|
-|   (src/portfolio) |
-+---------+---------+
-          |
-          v
-+-------------------+      +------------------+
-|  Risk Metrics     | ---> |  Stress Testing  |
-| (VaR, CVaR, etc) |      | (historical &    |
-| (src/risk_metrics)|      |  custom shocks) |
-+---------+---------+      +------------------+
-          |
-          v
-+-------------------+
-| Liquidity Checks  |
-| (src/liquidity)   |
-+---------+---------+
-          |
-          v
-+-------------------+
-|  Risk Matrix      |
-| (Heatmap & JSON)  |
-| (src/risk_matrix) |
-+---------+---------+
-          |
-          v
-+-------------------+      +------------------+
-| Report Generator  | ---> | Plug-in System   |
-| (Markdown/PDF)    |      | (src/plugins)    |
-+-------------------+      +------------------+
-          |
-          v
-+-------------------+
-| Streamlit Dashboard|
-|  (src/dashboard)  |
-+-------------------+
-
-
-### workflow
+## 🏗 workflow
 
 1. portfolio input
 
